@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+Route::get('/shops','ApiController@shops');
+Route::get('/act','ApiController@detail');
